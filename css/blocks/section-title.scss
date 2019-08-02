@@ -1,0 +1,14 @@
+.section-title {
+    font-size: 72px;
+    margin-bottom: 45px;
+    line-height: 1;
+    color: #f9b43b;
+
+    &--color-black {
+        color: #000000;
+    }
+    
+    &--centered {
+        text-align: center;
+    }
+}

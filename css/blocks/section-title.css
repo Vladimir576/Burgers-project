@@ -1,0 +1,9 @@
+.section-title {
+  font-size: 72px;
+  margin-bottom: 45px;
+  line-height: 1;
+  color: #f9b43b; }
+  .section-title--color-black {
+    color: #000000; }
+  .section-title--centered {
+    text-align: center; }

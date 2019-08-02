@@ -1,0 +1,124 @@
+.section__delivery {
+  background: url(/img/delivery-background.png) center center no-repeat;
+  background-size: 100%;
+  color: white;
+  font-size: 14px; }
+
+.form__data-for-delivery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 480px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 20px; }
+
+.vertical-position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 20px; }
+
+.input__street {
+  width: 460px; }
+
+.input__main-info {
+  width: 220px; }
+  .input__main-info:first-child {
+    margin-right: 20px; }
+
+.input__house-info {
+  width: 99px;
+  margin-right: 20px; }
+
+.radio__input {
+  display: none; }
+
+.delivery__radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 27px; }
+
+#textarea {
+  width: 460px;
+  height: 110px;
+  resize: none;
+  margin-bottom: 20px; }
+
+.radio__fake-before {
+  width: 18px;
+  height: 18px;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 5px;
+  background: white; }
+
+.radio__fake-before::before {
+  content: "";
+  border-radius: 50%;
+  background: #e35028;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 0px;
+  height: 0px; }
+
+.radio__input:checked + .radio__fake-before {
+  content: "";
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  border-color: #e35028;
+  background: white; }
+
+.reset {
+  cursor: pointer;
+  background: transparent;
+  border: 0px;
+  font-size: 15px;
+  color: white; }
+
+.radio__input:checked + .radio__fake-before::before {
+  content: "";
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  width: 8px;
+  height: 8px; }
+
+.radio__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 15px; }
+
+.section__delivery--headline {
+  color: #f9b43b;
+  font-size: 50px;
+  text-transform: uppercase; }
+
+.btn {
+  margin-right: 20px; }
+
+input,
+textarea {
+  border-radius: 5px 5px 5px 5px;
+  border-color: transparent;
+  outline: none;
+  padding-left: 19px; }
+
+input:active, :focus {
+  border: 2px 2px 2px 2px solid;
+  border-color: #f9b43b; }

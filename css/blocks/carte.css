@@ -1,0 +1,72 @@
+.carte {
+  background: url("/img/menu-background.png") no-repeat center center;
+  background-size: 100%; }
+
+.carte__headline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.carte__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin: 0 auto; }
+
+ul.carte__accordion {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0; }
+
+.carte__block {
+  position: relative; }
+
+.carte__block .carte__headline {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(50%, -20%);
+  -ms-transform: translate(50%, -20%);
+  transform: translate(50%, -20%); }
+
+.carte__headline {
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 0.889; }
+
+ul.carte__accordion li {
+  width: 80px;
+  overflow: hidden;
+  cursor: pointer;
+  display: block;
+  -webkit-transition: all 1.5s;
+  -o-transition: all 1.5s;
+  transition: all 1.5s; }
+
+ul.carte__accordion li:hover {
+  opacity: 1;
+  background: rgba(49, 51, 52, 0.8);
+  background-size: 50%;
+  width: 780px;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }

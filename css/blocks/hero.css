@@ -1,0 +1,26 @@
+.hero {
+  background: url("../../img/background-hero.png") center center no-repeat;
+  background-size: 100%;
+  position: relative; }
+
+.hero__container {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start; }
+
+.hero__content {
+  -webkit-box-flex: .8;
+  -ms-flex: .8;
+  flex: .8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 95px; }
+
+.hero__desc {
+  font-size: 65px;
+  line-height: 1;
+  color: #ffffff; }

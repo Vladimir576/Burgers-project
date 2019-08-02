@@ -1,0 +1,54 @@
+.best {
+  background: url(/img/background-best.png) center center no-repeat;
+  background-size: 100%; }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
+
+.section-title--color-black {
+  margin-bottom: 56px; }
+
+.best__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.best__item {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-right: 10px; }
+  .best__item:last-child {
+    margin-right: 0; }
+
+.feauture__pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 30px; }
+
+.feauture__title {
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 26px; }
+
+.feuture__text {
+  font-size: 16px; }
+
+.feauture__desc {
+  text-align: center; }
