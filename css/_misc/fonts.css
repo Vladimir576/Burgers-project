@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Gagalin-Regular';
+  src: url("/fonts/gagalin-regular.otf"), url("/fonts/ubuntu-light.ttf"), url("/fonts/ubuntu-medium.ttf"); }
+
+body {
+  font-family: 'Gagalin-Regular'; }

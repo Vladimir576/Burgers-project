@@ -1,6 +1,6 @@
 .crew {
   background: url(/img/crew-icon.png) center center no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
@@ -139,6 +139,7 @@ body {
 }
 
 .crew__title {
+  font-family: 'Gagalin';
   font-size: 60px;
   color: rgb(249, 180, 59);
   line-height: 0.889;

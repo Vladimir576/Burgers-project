@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 .crew {
   background: url(/img/crew-icon.png) center center no-repeat;
-  background-size: 100%; }
+  background-size: cover; }
 
 body {
   font-family: "Lato", Helvetica, Arial;
@@ -93,6 +93,7 @@ body {
   align-items: center; }
 
 .crew__title {
+  font-family: 'Gagalin';
   font-size: 60px;
   color: #f9b43b;
   line-height: 0.889;

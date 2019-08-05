@@ -1,6 +1,6 @@
 .section__delivery {
   background: url(/img/delivery-background.png) center center no-repeat;
-  background-size: 100%;
+  background-size: cover;
   color: white;
   font-size: 14px; }
 
@@ -105,8 +105,10 @@
   margin-right: 15px; }
 
 .section__delivery--headline {
+  font-family: 'Gagalin';
   color: #f9b43b;
-  font-size: 50px;
+  font-size: 60px;
+  font-weight: 700;
   text-transform: uppercase; }
 
 .btn {

@@ -1,6 +1,6 @@
 .carte {
     background: url('/img/menu-background.png') no-repeat center center;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .carte__headline {
@@ -36,8 +36,9 @@ ul.carte__accordion {
 }
 
 .carte__headline {
-    font-size: 50px;
-    font-weight: 500;
+    font-family: 'Gagalin';
+    font-size: 70px;
+    font-weight: 700;
     text-transform: uppercase;
     color: #ffffff;
     line-height: 0.889;
@@ -50,6 +51,8 @@ ul.carte__accordion li {
     display: block;
     transition: all 1.5s;
 }
+
+
 
 ul.carte__accordion li:hover {
     opacity: 1;

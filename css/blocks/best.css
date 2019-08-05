@@ -1,6 +1,6 @@
 .best {
   background: url(/img/background-best.png) center center no-repeat;
-  background-size: 100%; }
+  background-size: cover; }
 
 .container {
   display: -webkit-box;
@@ -17,7 +17,8 @@
   flex: 1; }
 
 .section-title--color-black {
-  margin-bottom: 56px; }
+  margin-bottom: 56px;
+  font-family: 'Gagalin'; }
 
 .best__list {
   display: -webkit-box;

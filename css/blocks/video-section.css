@@ -1,13 +1,15 @@
 .video__section {
   background: url(/img/video-section-photo.png) center center no-repeat;
-  background-size: 100%; }
+  background-size: cover; }
 
 .video__cooking {
   width: 660px;
   height: 405px; }
 
 .video__title {
-  font-size: 50px;
+  font-family: 'Gagalin';
+  font-size: 70px;
+  font-weight: 700;
   color: #2f3234;
   text-transform: uppercase;
   text-align: center; }
